@@ -94,6 +94,7 @@ button {
 	border-radius: 15px;
 	margin-left: 1%;
 	margin-right: 1%;
+	margin-top: 0.5%;
     padding: 2%; 
     width: 12%;
     height: 5%;
@@ -245,4 +246,14 @@ footer {
 .show-div {
   height: 100px;
   transition: height 1s
+}
+
+.location-text {
+	color: white;
+	float: right;
+}
+
+.arts:hover {
+	opacity: 0.7;
+	transition: 1s;
 }
