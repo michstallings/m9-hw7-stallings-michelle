@@ -1,0 +1,416 @@
+/* Colors:
+Green: #c1e40e
+Orange: #fc713a
+Dark Gray: #42413f
+Light Gray: #757776
+White: #ffffff */
+
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+* {
+  font-family: 'PT Sans', sans-serif;
+  padding: 0;
+	border: 0;
+    display:block;
+}
+
+/*h1 {
+	color: #ffffff;
+	text-align: center;
+	font-size: 3rem;
+
+}
+
+h2 {
+	color: #000000;
+	text-align: center;
+	font-size: 2rem;
+
+} */
+
+h3 {
+	color: #ffffff;
+	font-size: 1.25rem;
+	text-align: center;
+	padding-top: 40%;
+
+}
+/*
+h4 {
+	color: #fc713a;
+	font-size: 1rem;
+
+}
+
+#tag1 {
+	color: #ffffff;
+	text-align: center;
+	font-size: 1.5rem;
+}
+
+#tag2 {
+	color: #fc713a;
+	text-align: center;
+}
+
+
+body {
+
+}
+
+nav {
+	width: 1000px;
+	margin: auto;
+	text-align: center;
+	font-size: 1rem;
+	padding: 0.5%;
+
+}
+
+nav ul {
+	list-style-type: none;
+
+}
+
+nav ul li{
+	color: #fc713a;
+	display: inline;
+	padding-left: 40px;
+	padding-right: 40px;
+	font-size: 1rem;
+
+}
+
+#location {
+	color: #000000;
+	font-weight: bold;
+	background-color: #c1e40e;
+	border-radius: 15px;
+    background: #73AD21;
+    padding: 20px; 
+    width: 200px;
+    height: 150px;
+
+}
+
+#order {
+	color: #ffffff;
+	font-weight: bold;
+	background-color: #fc713a;
+	border-radius: 15px;
+    padding: 20px; 
+    width: 200px;
+    height: 150px;
+}
+
+#buttons {
+	text-align: center;
+}
+
+#buttons li {
+	display: inline;
+}
+
+#contact-button {
+	color: #c1e40e;
+	border-radius: 50px;
+    border: 2px solid #c1e40e;
+    padding: 1%; 
+    width: 75px;
+    height: 30px;
+}
+
+#order-button {
+	color: #fc713a;
+	border-radius: 50px;
+    border: 2px solid #fc713a;
+    padding: 1%; 
+    width: 75px;
+    height: 30px;
+}
+
+header {
+	background-image: url(../img/banner-bg.png);
+	background-position: 150% 25%;
+	background-repeat: no-repeat;
+	height: 400px;
+	margin: auto;
+} */
+
+article {
+	color: #ffffff;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#art1, #art2, #art3, #art4, #art5, #art6 p {
+	text-align: center;
+	font-weight: bold;
+}
+
+#art1 {
+	background-image: url(../img/story-bg.png);
+	color: #ffffff;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+#art2 {
+	background-image: url(../img/menu-bg.png);
+	color: #ffffff;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#art3 {
+	background-image: url(../img/order-bg.png);
+	color: #ffffff;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#art4 {
+	background-image: url(../img/auburn-bg.png);
+	color: #ffffff;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#art5 {
+	background-image: url(../img/alabama-bg.png);
+	color: #ffffff;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#art6 {
+	background-image: url(../img/florida-bg.png);
+	color: #ffffff;
+	background-repeat: no-repeat;
+	background-size: cover;
+} 
+/*
+.footnav {
+	color: #ffffff;
+	text-align: left;
+	width: 40%;
+}
+
+.footnav li {
+	display: inline;
+	padding-left: 20px;
+	padding-right: 20px;
+} 
+
+.footsm li img {
+	display: inline-block;
+	padding-left: 20px;
+	padding-right: 20px;
+	}
+
+footer {
+	background-color: #42413f;
+	background-image: url(../img/gradient.png);
+	background-repeat: no-repeat;
+	background-size: 2500px;
+	height: 300px;
+}
+/*
+/*--------------MEDIA QUERIES --------------------
+@media (min-width: 320px){
+
+	header{
+		background-size: auto;
+		background-position: 75% 25%;
+	}
+
+	h2 {
+		font-size: 2.75rem;
+	}
+
+	h3 {
+		font-size: 3rem;
+	}
+
+	h4 {
+		font-size: 1.5rem;
+		padding: 2%;
+	}
+
+	#tag1 {
+	font-size: 2rem;
+	}
+
+	#tag2 {
+	font-size: 1.5rem;
+	}
+
+	article {
+		width: 600px;
+		height: 600px;
+		margin: auto;
+	}
+
+	article p {
+		font-size: 1.5rem;
+	}
+
+	.footnav {
+		clear: both;
+		width: 90%;
+	}
+
+	footer {
+		height: 400px;
+	}
+
+	#sec2 {
+		clear: both;
+	}
+
+	#sec2 ul li {
+		font-size: 1.3rem;
+	}
+
+	footer img {
+		width: 75px;
+		display: inline;
+		float: left;
+	}
+
+}
+
+/*-------------------- 1000+ Query ------------
+
+@media (min-width: 1110px){
+
+	header{
+		background-size: auto;
+		background-position: 80% 25%;
+	}
+
+	h2 {
+		font-size: 2rem;
+	}
+
+	h3 {
+		font-size: 1.8rem;
+	}
+
+	h4 {
+		font-size: 1rem;
+		padding: 2%;
+	}
+
+	#tag1 {
+	font-size: 1.5rem;
+	}
+
+	#tag2 {
+	font-size: 1.25rem;
+	}
+
+	article {
+		width: 300px;
+		height: 300px;
+		margin: auto;
+	}
+
+	article p {
+		font-size: 1.2rem;
+	}
+
+	#art1 {
+		float: left;
+		margin: 0.5%;
+	}
+
+	#art2 {
+		float: left;
+		margin: 0.5%;
+	}
+
+	#art3 {
+			float: left;
+			margin: 0.5%;
+		}
+
+	#art4 {
+		float: left;
+		margin: 0.5%;
+	}
+
+	#art5 {
+		float: left;
+		margin: 0.5%;
+	}
+
+	#art6 {
+			float: left;
+			margin: 0.5%;
+		}
+
+	#part1 {
+		margin: auto;
+		padding: 3%;
+		width: 85%;
+		clear: both;
+	}
+
+	#part2 {
+		margin: auto;
+		padding: 3%;
+		width: 85%;
+		clear: both;
+	}
+
+	#floath4 {
+		float: right;
+		width: 30%;
+	}
+
+	#sec2 {
+		width: 60%;
+		clear: right
+	} 
+
+	.footnav {
+		clear: both;
+		width: 90%;
+	}
+
+	.footnav li {
+		padding: 4%;
+	}
+
+	footer {
+		height: 400px;
+		clear: both;
+	}
+
+	footer img {
+		width: 40px;
+		padding-bottom: 4%;
+		float: right;
+	}
+
+	#center {
+		width: 80%;
+		margin: auto;
+	}
+
+
+}
+
+/*----------1300+ Query -------------
+@media (min-width: 1300px){
+	header {
+	background-image: url(../img/banner-bg.png);
+	background-position: 100% 25%;
+	background-repeat: no-repeat;
+	height: 400px;
+	margin: auto;
+	}
+}
+*/
