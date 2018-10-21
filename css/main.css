@@ -87,26 +87,29 @@ nav ul li{
 
 }
 
-#location {
+button {
 	color: #000000;
+	display: inline;
 	font-weight: bold;
+	border-radius: 15px;
+	margin-left: 1%;
+	margin-right: 1%;
+    padding: 2%; 
+    width: 12%;
+    height: 5%;
+    float: right;
+
+}
+
+#location {
 	background-color: #c1e40e;
 	border-radius: 15px;
     background: #73AD21;
-    padding: 20px; 
-    width: 200px;
-    height: 150px;
 
 }
 
 #order {
-	color: #ffffff;
-	font-weight: bold;
 	background-color: #fc713a;
-	border-radius: 15px;
-    padding: 20px; 
-    width: 200px;
-    height: 150px;
 }
 
 #buttons {
@@ -219,4 +222,15 @@ footer {
 .footsm li img {
 	max-width: 50px;
 	padding: 2%;
+}
+
+/*---Hw 7 Additions--*/
+.hide-div {
+  height: 0;
+  overflow: hidden;
+  transition: height 1s
+}
+.show-div {
+  height: 100px;
+  transition: height 1s
 }
