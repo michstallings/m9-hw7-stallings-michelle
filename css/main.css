@@ -225,6 +225,18 @@ footer {
 }
 
 /*---Hw 7 Additions--*/
+#location:hover {
+  background-color: #42413f;
+  color: white;
+  transition: background-color 1s;
+}
+
+#order:hover {
+  background-color: #42413f;
+  color: white;
+  transition: background-color 1s;
+}
+
 .hide-div {
   height: 0;
   overflow: hidden;
